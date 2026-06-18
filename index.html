@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reading World</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Merriweather&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2 class="logo">📚 ReadingWorld</h2>
+  <div class="menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#books">Books</a>
+    <a href="#favourites">Favourites</a>
+    <a href="#contact">Contact</a>
+    <button onclick="toggleDark()">🌙</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Explore the Magic of Reading</h1>
+  <p>Discover stories, knowledge, and imagination</p>
+  <button onclick="scrollToSection('books')">Start Reading</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>ReadingWorld is a platform for book lovers. We provide books, reviews, and guides to improve reading habits.</p>
+</section>
+
+<!-- BOOKS -->
+<section id="books" class="services">
+  <h2>Popular Books</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f" alt="Harry Potter">
+      <h3>Harry Potter</h3>
+      <p>A magical story of a young wizard.</p>
+      <button onclick="alert('Read more about Harry Potter')">Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="Romeo and Juliet">
+      <h3>Romeo and Juliet</h3>
+      <p>A famous love story by Shakespeare.</p>
+      <button onclick="alert('Read more about Romeo and Juliet')">Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Rich Dad Poor Dad">
+      <h3>Rich Dad Poor Dad</h3>
+      <p>A book about money and success.</p>
+      <button onclick="alert('Read more about Rich Dad Poor Dad')">Read More</button>
+    </div>
+  </div>
+</section>
+
+<!-- FAVOURITE BOOKS -->
+<section id="favourites" class="services">
+  <h2>Favourite Books</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d" alt="The Alchemist">
+      <h3>The Alchemist</h3>
+      <p>A story about dreams and goals.</p>
+      <button onclick="alert('Read more about The Alchemist')">Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1473755504818-b72b6dfdc226" alt="Think and Grow Rich">
+      <h3>Think and Grow Rich</h3>
+      <p>Motivation and success book.</p>
+      <button onclick="alert('Read more about Think and Grow Rich')">Read More</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Atomic Habits">
+      <h3>Atomic Habits</h3>
+      <p>Learn how to build good habits.</p>
+      <button onclick="alert('Read more about Atomic Habits')">Read More</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: readingworld@email.com</p>
+  <p>Follow us for book updates</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Reading World</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
